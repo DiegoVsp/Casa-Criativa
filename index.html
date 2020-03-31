@@ -12,36 +12,96 @@
     Linguagem   
 
 -->
-  <html><!-- Tag HTML -->
-    <head>
-      <meta charset="UTF-8">
-      <!-- Responsável por receber configurações da página-->
-      <title>Casa Criativa</title>
-      <link rel="stylesheet" href="index.css">
-      <body>
-        <!---->        
-        <img src="logo.png" alt="Casa Criativa Logomarca">
+<html>
+<!-- Tag HTML -->
+
+<head>
+  <meta charset="UTF-8">
+  <!-- Responsável por receber configurações da página-->
+  <title>Casa Criativa</title>
+  <link rel="stylesheet" href="style.css">
+
+<body>
+
+  <div id="container">
+    <section id="intro">
+      <header>
+        <img src="./img/logo.png" alt="Casa Criativa Logomarca">
+      </header>
+
+      <main>
         <p>
           Ficar em casa em períodos longos, não deve ser nada fácil.
         </p>
 
         <p>
           Por isso, iremos catalogar ideias, <strong>brincadeiras, jogos, filmes,
-          livros, cursos, dicas </strong>e tudo o que for necessário para tornar
+            livros, cursos, dicas </strong>e tudo o que for necessário para tornar
           esse momento mais interressante.
         </p>
 
         <p>
-          Comece clicando em ver ideias para ver as ideias cadastradas e 
+          Comece clicando em ver ideias para ver as ideias cadastradas e
           contribua adicionando a sua ideia
-        </p>   
-        <button>+Adicionar Ideias</button>   
-        <button class="fat">Ver Ideias</button>
+        </p>
+      </main>
 
-        <p id="footer">com ❤ <a href="/">Diego Vespa</a></p>
-         
-        <script src="index.js"></script>
-      </body>
-    </head>
-  </html>
-  
+      <section id="buttons">
+        <button>+Adicionar Ideias</button>
+        <button class="fat">Ver Ideias</button>
+      </section>
+
+      <footer>
+        <p id="footer">com ❤ <a href="#">Diego Vespa</a></p>
+      </footer>
+
+    </section>
+
+    <section id="last-ideias">
+      <div class="idea">
+        <img src="https://image.flaticon.com/icons/svg/2729/2729007.svg" alt="curso de programação">
+        <div class="content">
+          <h3>Cursos de Programação</h3>
+          <p>Estudo</p>
+          <div class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea labore temporibus ex magnam earum dolores beatae
+            aliquid iure illo dignissimos nemo recusandae molestiae placeat tenetur iste eligendi debitis, fugit quam?
+          </div>
+          <a href="#">Ir para a Ideia</a>
+        </div>
+      </div>
+
+      <div class="idea">
+        <img src="https://image.flaticon.com/icons/svg/2729/2729005.svg" alt="imagens de exercicios">
+        <div class="content">
+          <h3>Exercicios</h3>
+          <p>Saúde</p>
+          <div class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea labore temporibus ex magnam earum dolores beatae
+            aliquid iure illo dignissimos nemo recusandae molestiae placeat tenetur iste eligendi debitis, fugit quam?
+          </div>
+          <a href="#">Ir para a Ideia</a>
+        </div>
+      </div>
+
+      <div class="idea">
+        <img src="https://image.flaticon.com/icons/svg/2729/2729027.svg" alt="imagens de meditação">
+        <div class="content">
+          <h3>Meditação</h3>
+          <p>Mentalidade</p>
+          <div class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea labore temporibus ex magnam earum dolores beatae
+            aliquid iure illo dignissimos nemo recusandae molestiae placeat tenetur iste eligendi debitis, fugit quam?
+          </div>
+          <a href="#">Ir para a Ideia</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</head>
+
+</html>

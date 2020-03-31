@@ -1,13 +1,23 @@
 /* Cascading StyleSheet */
+/* 
+BOX -> conteudo da caixa
+
+Espaçamentos
+Bordas
+Preenchimento
+Posicionamentos
+
+
+*/
 body {
   background: #e5e5e5;
   color: #252828;
 
   text-align: center;
 }
-p {
-  
-}
+
+p {}
+
 button {
   color: #ff5e84;
 
@@ -16,17 +26,19 @@ button {
   font-weight: bold;
   background: none;
 }
+
 button.fat {
   color: white;
-  background: #ff5e84; 
+  background: #ff5e84;
 }
+
 #footer a {
   color: #252828;
   text-decoration: none;
 }
-body img {
 
-}
+body img {}
+
 .hide {
   display: none;
 }
