@@ -1,0 +1,32 @@
+/* Cascading StyleSheet */
+body {
+  background: #e5e5e5;
+  color: #252828;
+
+  text-align: center;
+}
+p {
+  
+}
+button {
+  color: #ff5e84;
+
+  border: none;
+
+  font-weight: bold;
+  background: none;
+}
+button.fat {
+  color: white;
+  background: #ff5e84; 
+}
+#footer a {
+  color: #252828;
+  text-decoration: none;
+}
+body img {
+
+}
+.hide {
+  display: none;
+}
